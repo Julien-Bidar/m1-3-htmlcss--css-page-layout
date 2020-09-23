@@ -1,13 +1,44 @@
-body {
+kckbody {
   margin: 0;
 }
 
 .nav {
   background-color: #383737;
+  position: relative;
+  max-height: 4em;
 }
 
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  background-color: rgb(70, 70, 236);
+  color: white;
+  list-style-type: none;
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-items {
+  display: inline-flex;
+  color: white;
+  list-style-type: none;
+}
+
+.dropdown-label {
+  margin-right: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.link:hover{
+  cursor: pointer;
 }
