@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.topnav {
+    background-color: #3a3633;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navitem {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+}
+
+.navitem:hover {
+    opacity: 60%;
+    transition: 200ms;
+}
