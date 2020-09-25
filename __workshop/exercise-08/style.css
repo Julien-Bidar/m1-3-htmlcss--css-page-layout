@@ -12,13 +12,14 @@ body {
 }
 
 .registration-form {
-  background-color: teal;
   text-align: center;
 }
 
 .text-field {
+  border-color: cadetblue;
+  border-radius: 4px;
+  box-shadow: none;
   display: block;
-  background-color: violet;
   margin: auto;
 }
 

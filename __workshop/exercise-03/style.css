@@ -6,10 +6,13 @@
 
 body {
     background-image: url(./imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: auto;
 }
 
 h1 {
